@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.pnp.*
+
+# Environment files
+.env
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+pnpm-debug.log*
+
+# IDEs and editors
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
+.tscache/
+
+# Docker volumes
+docker-volumes/
+postgres_data/
+
+# Backend specific
+backend/dist/
+backend/node_modules/
+backend/.env
+
+# Frontend specific
+frontend/dist/
+frontend/node_modules/
+frontend/.env
+frontend/build/

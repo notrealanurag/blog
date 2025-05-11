@@ -1,0 +1,13 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start:frontend": "cd frontend && pnpm dev",
+    "start:backend": "cd backend && pnpm start:dev",
+    "dev": "concurrently \"pnpm start:frontend\" \"pnpm start:backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

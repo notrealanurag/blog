@@ -1,0 +1,19 @@
+# compiled output
+/dist
+/node_modules
+/build
+
+# OS
+.DS_Store
+
+# dotenv environment variable files
+.env
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# GraphQL
+src/schema.gql
