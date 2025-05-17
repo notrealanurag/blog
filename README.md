@@ -75,9 +75,16 @@ POSTGRES_DB=blogdb
 
 # Backend
 NODE_ENV=production
+PORT=3000
 JWT_SECRET=your-secret-key-change-in-production
+DB_HOST=localhost
+DB_PORT=5432
+DB_USERNAME=bloguser
+DB_PASSWORD=blogpass
+DB_NAME=blogdb
+JWT_SECRET=your-secret-key
 FRONTEND_URL=http://localhost:5173
-SEED_DATABASE=true  # Enable database seeding
+SEED_DATABASE=true # Enable database seeding
 
 # Frontend
 VITE_API_URL=http://localhost:3000/graphql
