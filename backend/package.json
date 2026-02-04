@@ -17,7 +17,7 @@
     "db:setup": "pnpm migration:run && pnpm seed"
   },
   "dependencies": {
-    "@apollo/server": "^4.12.0",
+    "@apollo/server": "^5.4.0",
     "@nestjs/apollo": "^13.1.0",
     "@nestjs/common": "^11.1.0",
     "@nestjs/config": "^3.2.0",
